@@ -1,8 +1,8 @@
 function firstChar(text) {
   // your code here
-	text.trim();
-	if(text.length===1) return ""
-	return text.charAt(0);
+	let ans = text.trim();
+	if(ans.length===0) return ""
+	return ans.charAt(0);
 }
 
 // Do not change the code below
