@@ -1,3 +1,6 @@
+
+
+let text = prompt();
 function firstChar(text) {
   // your code here
 	let ans = text.trim();
